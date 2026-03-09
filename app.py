@@ -103,7 +103,7 @@ Answer:
 
 # --- STREAMLIT UI ---
 
-st.title("Advanced RAG QA Demo")
+st.title("Advanced RAG Demo")
 st.write("Upload a TXT or PDF document and ask questions!")
 
 uploaded_file = st.file_uploader("Upload TXT or PDF", type=["txt", "pdf"])

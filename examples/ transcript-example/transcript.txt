@@ -1,0 +1,42 @@
+Robert B (5/27/2023, 08:05:22): Welcome to Skillsoft Customer Support. My name is Robert, one moment please while I create a case for you. 
+Robert B (5/27/2023, 08:05:38): Hi, thanks for waiting. Your case number is  IS-04662116.
+
+Can you please confirm your phone number in case we get disconnected? 
+Me (5/27/2023, 08:06:07): sure here it is - +91872540**** 
+Robert B (5/27/2023, 08:06:13): Thanks - how can I help? 
+Me (5/27/2023, 08:06:26): I am unable to access content of a library 
+Me (5/27/2023, 08:06:53): it keep loading but never loads 
+Robert B (5/27/2023, 08:07:14): Can you please specify what it is you're trying to access? 
+Me (5/27/2023, 08:08:13): it is a training journey under HCL content 
+Robert B (5/27/2023, 08:08:43): OK. What is it? 
+Me (5/27/2023, 08:09:04): course path is Library > HCLTech T2ID > Fresher GET Foundation 
+Robert B (5/27/2023, 08:09:42): is Fresher GET Foundation the name of the journey? 
+Me (5/27/2023, 08:09:46): yes 
+Robert B (5/27/2023, 08:09:54): One moment please. 
+Robert B (5/27/2023, 08:12:53): Are you saying that the issue is that when you click on Fresher GET Foundation from the library location the page doesn't load? 
+Me (5/27/2023, 08:13:45): yes, I see the page which reads loading but it never actually loads 
+Robert B (5/27/2023, 08:14:16): Okay thanks. I don't seem to be able to replicate that issue from your account. Can you please clear your cache and try again?
+
+To clear the browser cache, please follow the steps provided below:
+
+1. Ensure the browser window is the active window.
+2. On your keyboard, press the Ctrl + Shift + Delete keys at the same time.
+3. In the Clear Browsing History window, select the option to delete Temporary Internet files or Cached files.
+4. Restart your browser and return to the login page. 
+Me (5/27/2023, 08:15:23): I have tried logging in through a private window but the issue still persists. 
+Robert B (5/27/2023, 08:16:36): Sorry to hear that, Mridul. If you are connected to any sort of VPN or proxy network, I'd recommend disconnecting from that before trying again. You may wish to try from another browser, also. 
+
+If the issue persists at that point, we may need to obtain a log file from your browser to determine why the site is not loading for you 
+Me (5/27/2023, 08:17:12): Alright, how can I provide that? 
+Robert B (5/27/2023, 08:17:31): For us to understand why this may be happening for you we'll require some additional information. To provide us with a log file of what happens when generating your certificate, please follow the steps in this guide:
+
+https://skillsoftscustomercommunit.force.com/kb/s/article/Capturing-a-HAR-File 
+Robert B (5/27/2023, 08:22:23): I am just checking in to see if you are still there and require further assistance? 
+Me (5/27/2023, 08:22:47): I am able to access course now as i started to record logs 
+Robert B (5/27/2023, 08:22:57): Okay great. 
+Me (5/27/2023, 08:23:11): should i still follow the procedure or no need? 
+Robert B (5/27/2023, 08:23:30): If you're no longer replicating the issue there would no need / information in the log to determine what is happening 
+Me (5/27/2023, 08:23:41): Okay thanks 
+Robert B (5/27/2023, 08:23:48): You're welcome. Do you have any other questions I may assist you with? 
+Me (5/27/2023, 08:23:53): No 
+Robert B (5/27/2023, 08:23:58): Thank you for contacting Skillsoft support. Feel free to contact us again anytime if you have any further issues or questions and we will be glad to assist in any way we can. 

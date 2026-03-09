@@ -13,7 +13,6 @@ CHAT_MODEL_API = f"https://aicafe.hcl.com/AICafeService/api/v1/subscription/open
 EMBEDDING_MODEL_API = f"https://aicafe.hcl.com/AICafeService/api/v1/subscription/openai/deployments/ada/embeddings?api-version=2023-05-15"
 
 SUBSCRIPTION_KEY = st.secrets["API_KEY"]
-# SUBSCRIPTION_KEY = "59f971fd-48fb-48cf-adae-d3e1e584c365"
 
 HEADERS = {
     "Content-Type": "application/json",
@@ -101,10 +100,9 @@ Answer:
         st.error(f"Chat API error: {response.text}")
         return "Error generating answer"
 
-# --- STREAMLIT UI ---
 
-st.title("Advanced RAG Demo")
-st.write("Upload a TXT or PDF document and ask questions!")
+st.title("Document Q&A Assistant (RAG)")
+st.write("Upload a TXT or PDF document and ask questions! (about 450 words supported)")
 
 uploaded_file = st.file_uploader("Upload TXT or PDF", type=["txt", "pdf"])
 
@@ -116,6 +114,8 @@ if uploaded_file:
             document_text += page.extract_text()
     else:
         document_text = uploaded_file.read().decode()
+
+    document_text = document_text.replace(" ", ".")   #for tackling the word limit
 
     st.success("Document loaded!")
 
